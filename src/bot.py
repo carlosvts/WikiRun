@@ -12,6 +12,8 @@ bot = Client(intents=Intents.DEFAULT)
 async def on_ready():
     print("Bot is ready")
 
+# TODO create slash commands for wikipedia speedrun
+
 
 # running the bot
 bot.start(os.getenv('BOT-TOKEN'))
